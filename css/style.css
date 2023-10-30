@@ -46,8 +46,9 @@ nav {
  *************************************************/
 
 /* FEATURES SECTION */
-.row {
-    margin: 80px 0;
+
+.features{
+    padding: 20px 0;
 }
 
 .col {
@@ -104,14 +105,45 @@ div img {
 }
 
 /* PLANNING SECTION */
+.planning {
+    background-color: rgb(156, 145, 255);
+    padding: 20px 0;
+}
+
 .transparent {
     background-color: transparent;
 }
 
-.white {
+.white-bg {
     background-color: white;
 }
 
-.planning {
-    background-color: rgb(156, 145, 255);
+.text-strategic-planning{
+    color: white;
+    padding: 20px 0;
 }
+
+.text-strategic-planning .title{
+    color: white;
+}
+
+.text-app-development{
+    color: black;
+    padding: 20px 0;
+}
+
+.text-app-development .title{
+    color: black;
+}
+
+.text-app-development div a{
+    color: black;
+    background-color: rgb(156, 145, 255);
+    text-decoration: none;
+    padding: 12px 15px;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+
+
