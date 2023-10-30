@@ -1,5 +1,5 @@
 /*************************************************
-    GENERAL STYLES
+    RESET STYLES
  *************************************************/
 :root {
     font-family: 'Open Sans', sans-serif;
@@ -11,4 +11,31 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/*************************************************
+    HEADER STYLES
+ *************************************************/
+nav{
+    background-color: rgb(75, 124, 180);
+}
+
+.container{
+    width: 95%;
+    margin: 0 auto;
+}
+
+#logo img{
+    padding: 10px;
+}
+
+#menu{
+    font-size: 25px;
 }
