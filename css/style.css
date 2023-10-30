@@ -1,7 +1,7 @@
 /*************************************************
     RESET STYLES
  *************************************************/
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 :root {
     font-family: 'PT Sans', sans-serif;
@@ -21,7 +21,6 @@
     align-items: center;
 }
 
-
 /*************************************************
     HEADER STYLES
  *************************************************/
@@ -35,7 +34,7 @@ nav {
 }
 
 #logo img {
-    padding: 10px;
+    padding: 15px;
 }
 
 #menu {
@@ -45,18 +44,24 @@ nav {
 /*************************************************
     MAIN STYLES
  *************************************************/
+
+/* FEATURES SECTION */
+.row {
+    margin: 80px 0;
+}
+
 .col {
-    text-align: left;
-    padding: 0 30px;
-    padding-top: 30px;
+    text-align: center;
+    padding: 10px 30px;
     background-color: rgb(133, 206, 255);
     border-radius: 20px;
     width: 85%;
-    margin: 50px auto;
+    margin: 20px auto;
 }
 
 .col p {
     padding: 30px 0;
+    font-weight: bold;
 }
 
 .title {
@@ -70,12 +75,11 @@ nav {
 
 div img {
     max-width: 100%;
-    margin-bottom: -4px;
+    margin-bottom: -14px;
 }
 
 .btn {
     padding: 30px;
-    text-align: center;
 }
 
 .btn a {
@@ -88,4 +92,26 @@ div img {
 
 .btn a:visited {
     color: white;
+}
+
+.icon {
+    text-align: center;
+    font-size: 100px;
+}
+
+.icon i {
+    color: rgb(75, 124, 180);
+}
+
+/* PLANNING SECTION */
+.transparent {
+    background-color: transparent;
+}
+
+.white {
+    background-color: white;
+}
+
+.planning {
+    background-color: rgb(156, 145, 255);
 }
