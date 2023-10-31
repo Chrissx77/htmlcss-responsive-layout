@@ -25,7 +25,7 @@
     HEADER STYLES
  *************************************************/
 nav {
-    background-color: rgb(75, 124, 180);
+    background-color: #0084fd;
 }
 
 .container {
@@ -47,18 +47,23 @@ nav {
 
 /* FEATURES SECTION */
 
-.features{
+.features {
     padding: 20px 0;
 }
 
 .col {
     text-align: center;
     padding: 10px 30px;
-    background-color: rgb(133, 206, 255);
     border-radius: 20px;
     width: 85%;
     margin: 20px auto;
 }
+
+.azzure-bg{
+    background-color: #b5ddff;
+
+}
+
 
 .col p {
     padding: 30px 0;
@@ -66,7 +71,7 @@ nav {
 }
 
 .title {
-    color: rgb(75, 124, 180);
+    color: #0084fd;
 }
 
 .image {
@@ -85,7 +90,7 @@ div img {
 
 .btn a {
     text-decoration: none;
-    background-color: rgb(75, 124, 180);
+    background-color: #0084fd;
     padding: 5px 25px;
     border-radius: 20px;
     letter-spacing: 3px;
@@ -101,12 +106,12 @@ div img {
 }
 
 .icon i {
-    color: rgb(75, 124, 180);
+    color: #0084fd;
 }
 
 /* PLANNING SECTION */
 .planning {
-    background-color: rgb(156, 145, 255);
+    background-color: #9792e4;
     padding: 20px 0;
 }
 
@@ -118,32 +123,99 @@ div img {
     background-color: white;
 }
 
-.text-strategic-planning{
+.text-strategic-planning {
     color: white;
     padding: 20px 0;
 }
 
-.text-strategic-planning .title{
+.text-strategic-planning .title {
     color: white;
 }
 
-.text-app-development{
+.text-app-development {
     color: black;
     padding: 20px 0;
 }
 
-.text-app-development .title{
+.text-app-development .title {
     color: black;
 }
 
-.text-app-development div a{
+.text-app-development div a {
     color: black;
-    background-color: rgb(156, 145, 255);
+    background-color: #9792e4;
     text-decoration: none;
     padding: 12px 15px;
     border-radius: 50%;
     font-size: 20px;
 }
 
+/* TESTIMONIALS SECTION */
+.violet-bg {
+    background-color: #9792e4;
+}
 
+.violet-color {
+    color: #9792e4;
+}
 
+.text-testimonials .title {
+    padding: 30px 0;
+}
+
+.text-testimonials p {
+    line-height: 25px;
+}
+
+.text-testimonial {
+    color: white;
+    padding: 20px;
+    background-color: #9792e4;
+    border-radius: 40px;
+}
+
+.image-test {
+    background-image: url(../image/testimonial1.jpg);
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+/* BENEFIT SECTION */
+.benefits .row{
+    padding: 30px 0; 
+}
+
+.text-benefits{
+    color: white;
+    text-align: center;
+    padding: 25px;
+    font-size: 25px;
+}
+
+.text-benefit{
+    background-color: white;
+    color: #9792e4;
+    text-align: left;
+    padding: 20px;
+    border-radius: 40px;
+    
+}
+
+.text-benefit .number h1{
+    font-size: 40px;
+}
+
+.text-benefit .btn a{
+    background-color: #9792e4;
+}
+
+.text-benefit .title h2{
+    color: #9792e4;
+}
+
+.text-benefit div{
+    padding: 10px 0;
+}
