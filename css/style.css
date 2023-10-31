@@ -354,7 +354,7 @@ div img {
 
     .image-test{
         flex-basis: 25%;
-        max-height: 150px;
+        height: 150px;
     }
 
     .info-test{
@@ -370,6 +370,34 @@ div img {
 
     .benefits .row .col{
         width: calc((100% /2) - 20px);
+    }
+
+    /* ABOUT US SECTION */
+    .about-us .row{
+        display: flex;
+        justify-content: center;
+    }
+
+    .text-about-us{
+        flex-basis: 80%;
+
+    }
+
+    .info-image h1{
+        padding: 35px;
+    }
+    
+    .image-about-us{
+        flex-basis: 20%;
+    }
+    
+    .image-about-us .image-test{
+        flex-basis: 20%;
+        height: 250px;
+    }
+
+    .image-about-us div {
+        padding: 0;
     }
 
 
