@@ -304,6 +304,7 @@ div img {
 @media all and (min-width: 481px){
 
     /* FEATURES SECTION */
+
     .features .container .row{
         display: flex;
         flex-wrap: wrap;
@@ -334,11 +335,10 @@ div img {
     }
 
     /* PLANNING SECTION */
-    .col-text-planning{
-        margin: 0 auto;
-        width: 100%;
+    .text-strategic-planning{
         text-align: left;
     }
+
 
     /* TESTIMONIAL SECTION */
     .text-testimonial{
@@ -406,6 +406,62 @@ div img {
 
 
  
+
+}
+
+/* Desktop Version */
+@media all and (min-width: 769px){
+
+
+    .container{
+        width:70%;
+        margin: 0 auto;
+    }
+
+    /* FEATURES SECTION */
+    
+    .col-2{
+        display: flex;
+    }
+
+    .col-2 div.image{
+        position: relative;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .col-2 div.image img{
+        width: 250px;
+        position: absolute;
+        bottom: 0px;
+        left: 50px;
+    }
+
+    /* PLANNING SECTION */
+    .planning .container .row{
+        display: flex;
+    }
+
+    /* TESTIMONIALS SECTION */
+    .image-test{
+        flex-basis: 25%;
+        height: 250px;
+    }
+
+    /* BENEFIT SECTION */
+    .benefits .row .col{
+        width: calc((100% /3) - 20px);
+    }
+
+
+
+
+    /* Footer Section */
+    .container-foot{
+        width: 50%;
+        margin: 0 auto;
+    }
+
 
 }
 
