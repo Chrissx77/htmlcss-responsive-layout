@@ -188,14 +188,14 @@ div img {
 
 /* BENEFIT SECTION */
 .benefits .row{
-    padding: 30px 0; 
+    padding-bottom: 30px;
 }
 
 .text-benefits{
     color: white;
     text-align: center;
+    font-size: 20px;
     padding: 25px;
-    font-size: 25px;
 }
 
 .text-benefit{
@@ -204,7 +204,6 @@ div img {
     text-align: left;
     padding: 20px;
     border-radius: 40px;
-    
 }
 
 .text-benefit .number h1{
@@ -297,6 +296,89 @@ div img {
 
 .text-foot p a{
     color: #9792e4;
+}
+
+/* MEDIA QUERY */
+
+/* Tablet Version */
+@media all and (min-width: 481px){
+
+    /* FEATURES SECTION */
+    .features .container .row{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 5px;
+    }
+
+    .col-2{
+        width: calc((100% / 3) * 2 - 10px);
+        text-align: left;
+        margin: 5px auto;
+    }
+
+    .col-3{
+        width: calc((100% / 3) - 10px);
+        margin: 5px auto;
+    }
+
+    .col-2 .image{
+        margin: 0;
+    }
+
+    .col-2 .btn{
+        padding: 40px 0;
+    }
+
+    .col-2 .btn a{
+        padding: 10px 40px;
+    }
+
+    /* PLANNING SECTION */
+    .col-text-planning{
+        margin: 0 auto;
+        width: 100%;
+        text-align: left;
+    }
+
+    /* TESTIMONIAL SECTION */
+    .text-testimonial{
+        display: flex;
+        text-align: left;
+        align-items: center;
+    }
+
+    .text-testimonial div{
+        padding-left: 30px;
+        
+    }
+
+    .image-test{
+        flex-basis: 25%;
+        max-height: 150px;
+    }
+
+    .info-test{
+        flex-basis: 75%;
+    }
+
+    /* BENEFIT SECTION */
+    .benefits .row{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px 0;
+    }
+
+    .benefits .row .col{
+        width: calc((100% /2) - 20px);
+    }
+
+
+
+
+
+
+ 
+
 }
 
 
