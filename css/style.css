@@ -167,6 +167,9 @@ div img {
     line-height: 25px;
 }
 
+.text-testimonials div {
+    padding: 10px 0;
+}
 .text-testimonial {
     color: white;
     padding: 20px;
@@ -219,3 +222,81 @@ div img {
 .text-benefit div{
     padding: 10px 0;
 }
+
+/* ABOUT US SECTION */
+.image-about{
+    background-image: url(../image/about.jpg);
+}
+
+.image-about-us div{
+    padding: 20px 0;
+    text-align: left;
+}
+
+.image-about-us .btn a{
+    background-color: #9792e4;
+}
+
+.text-about-us .paragraph p{
+    line-height: 35px;
+}
+
+.text-about-us{
+    text-align: left;
+}
+
+.text-about-us .title{
+    font-size: 35px;
+}
+
+/* GET STARTED SECTION */
+.paragraph p{
+    padding: 0;
+}
+
+.get-text{
+    padding: 30px 0;
+    color: white;
+}
+.get-text div{
+    padding: 30px 0;
+}
+
+.get-text .title{
+    color: white;
+}
+
+.get-text .free{
+    color: yellow;
+    font-size: 40px;
+}
+
+.get-text .btn a{
+    color:#9792e4;
+    background-color: white;
+    font-weight: bold;
+    padding: 20px 50px;
+    border-radius: 30px;
+}
+
+.get-text .copyright a{
+    color: white;
+    text-decoration: none;
+}
+
+/* FOOT SECTION */
+.foot{
+    background-color: #333333;
+    color: white;
+}
+
+.foot .row .col{ 
+    margin: 0 auto;
+    margin-top: -20px;
+}
+
+.text-foot p a{
+    color: #9792e4;
+}
+
+
