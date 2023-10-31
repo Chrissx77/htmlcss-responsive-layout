@@ -28,6 +28,10 @@ nav {
     background-color: #0084fd;
 }
 
+#menu {
+    display: none;
+}
+
 .container {
     width: 95%;
     margin: 0 auto;
@@ -59,7 +63,7 @@ nav {
     margin: 20px auto;
 }
 
-.azzure-bg{
+.azzure-bg {
     background-color: #b5ddff;
 
 }
@@ -170,6 +174,7 @@ div img {
 .text-testimonials div {
     padding: 10px 0;
 }
+
 .text-testimonial {
     color: white;
     padding: 20px;
@@ -187,18 +192,18 @@ div img {
 }
 
 /* BENEFIT SECTION */
-.benefits .row{
+.benefits .row {
     padding-bottom: 30px;
 }
 
-.text-benefits{
+.text-benefits {
     color: white;
     text-align: center;
     font-size: 20px;
     padding: 25px;
 }
 
-.text-benefit{
+.text-benefit {
     background-color: white;
     color: #9792e4;
     text-align: left;
@@ -206,192 +211,202 @@ div img {
     border-radius: 40px;
 }
 
-.text-benefit .number h1{
+.text-benefit .number h1 {
     font-size: 40px;
 }
 
-.text-benefit .btn a{
+.text-benefit .btn a {
     background-color: #9792e4;
 }
 
-.text-benefit .title h2{
+.text-benefit .title h2 {
     color: #9792e4;
 }
 
-.text-benefit div{
+.text-benefit div {
     padding: 10px 0;
 }
 
 /* ABOUT US SECTION */
-.image-about{
+.image-about {
     background-image: url(../image/about.jpg);
 }
 
-.image-about-us div{
+.image-about-us div {
     padding: 20px 0;
     text-align: left;
 }
 
-.image-about-us .btn a{
+.image-about-us .btn a {
     background-color: #9792e4;
 }
 
-.text-about-us .paragraph p{
+.text-about-us .paragraph p {
     line-height: 35px;
 }
 
-.text-about-us{
+.text-about-us {
     text-align: left;
 }
 
-.text-about-us .title{
+.text-about-us .title {
     font-size: 35px;
 }
 
 /* GET STARTED SECTION */
-.paragraph p{
+.paragraph p {
     padding: 0;
 }
 
-.get-text{
+.get-text {
     padding: 30px 0;
     color: white;
 }
-.get-text div{
+
+.get-text div {
     padding: 30px 0;
 }
 
-.get-text .title{
+.get-text .title {
     color: white;
 }
 
-.get-text .free{
+.get-text .free {
     color: yellow;
     font-size: 40px;
 }
 
-.get-text .btn a{
-    color:#9792e4;
+.get-text .btn a {
+    color: #9792e4;
     background-color: white;
     font-weight: bold;
     padding: 20px 50px;
     border-radius: 30px;
 }
 
-.get-text .copyright a{
+.get-text .copyright a {
     color: white;
     text-decoration: none;
 }
 
 /* FOOT SECTION */
-.foot{
+.foot {
     background-color: #333333;
     color: white;
 }
 
-.foot .row .col{ 
+.foot .row .col {
     margin: 0 auto;
     margin-top: -20px;
 }
 
-.text-foot p a{
+.text-foot p a {
     color: #9792e4;
 }
+
+
 
 /* MEDIA QUERY */
 
 /* Tablet Version */
-@media all and (min-width: 481px){
+@media all and (min-width: 481px) {
+
+    /* NAV SECTION */
+    #menu {
+        display: none;
+    }
+
+
+
 
     /* FEATURES SECTION */
-
-    .features .container .row{
+    .features .container .row {
         display: flex;
         flex-wrap: wrap;
         margin: 0 5px;
     }
 
-    .col-2{
+    .col-2 {
         width: calc((100% / 3) * 2 - 10px);
         text-align: left;
         margin: 5px auto;
     }
 
-    .col-3{
+    .col-3 {
         width: calc((100% / 3) - 10px);
         margin: 5px auto;
     }
 
-    .col-2 .image{
+    .col-2 .image {
         margin: 0;
     }
 
-    .col-2 .btn{
+    .col-2 .btn {
         padding: 40px 0;
     }
 
-    .col-2 .btn a{
+    .col-2 .btn a {
         padding: 10px 40px;
     }
 
     /* PLANNING SECTION */
-    .text-strategic-planning{
+    .text-strategic-planning {
         text-align: left;
     }
 
 
     /* TESTIMONIAL SECTION */
-    .text-testimonial{
+    .text-testimonial {
         display: flex;
         text-align: left;
         align-items: center;
     }
 
-    .text-testimonial div{
+    .text-testimonial div {
         padding-left: 30px;
-        
+
     }
 
-    .image-test{
+    .image-test {
         flex-basis: 25%;
         height: 150px;
     }
 
-    .info-test{
+    .info-test {
         flex-basis: 75%;
     }
 
     /* BENEFIT SECTION */
-    .benefits .row{
+    .benefits .row {
         display: flex;
         flex-wrap: wrap;
         margin: 10px 0;
     }
 
-    .benefits .row .col{
+    .benefits .row .col {
         width: calc((100% /2) - 20px);
     }
 
     /* ABOUT US SECTION */
-    .about-us .row{
+    .about-us .row {
         display: flex;
         justify-content: center;
     }
 
-    .text-about-us{
+    .text-about-us {
         flex-basis: 80%;
 
     }
 
-    .info-image h1{
+    .info-image h1 {
         padding: 35px;
     }
-    
-    .image-about-us{
+
+    .image-about-us {
         flex-basis: 20%;
     }
-    
-    .image-about-us .image-test{
+
+    .image-about-us .image-test {
         flex-basis: 20%;
         height: 250px;
     }
@@ -399,38 +414,69 @@ div img {
     .image-about-us div {
         padding: 0;
     }
-
-
-
-
-
-
- 
-
 }
 
+
+
 /* Desktop Version */
-@media all and (min-width: 769px){
+@media all and (min-width: 769px) {
 
-
-    .container{
-        width:70%;
+    /* BODY RULES */
+    .container {
+        width: 70%;
         margin: 0 auto;
     }
 
+
+    /* NAV SECTION */
+    #menu-ham {
+        display: none;
+    }
+
+    #menu {
+        display: block;
+    }
+
+    #menu ul {
+        display: flex;
+        list-style: none;
+    }
+
+    #menu ul li {
+        padding: 0 10px;
+        color: white;
+        font-size: 18px;
+    }
+
+    #menu ul li a {
+        text-decoration: none;
+        color: black;
+        background-color: white;
+        padding: 5px 15px;
+        font-weight: bold;
+        border-radius: 30px;
+
+    }
+
+
+
+
+
+
+
     /* FEATURES SECTION */
-    
-    .col-2{
+
+    .col-2 {
         display: flex;
     }
 
-    .col-2 div.image{
+    .col-2 div.image {
         position: relative;
         width: 100%;
         margin: 0 auto;
     }
 
-    .col-2 div.image img{
+    .col-2 div.image img {
         width: 250px;
         position: absolute;
         bottom: 0px;
@@ -438,31 +484,27 @@ div img {
     }
 
     /* PLANNING SECTION */
-    .planning .container .row{
+    .planning .container .row {
         display: flex;
     }
-
+    
     /* TESTIMONIALS SECTION */
-    .image-test{
+    .image-test {
         flex-basis: 25%;
         height: 250px;
     }
 
     /* BENEFIT SECTION */
-    .benefits .row .col{
+    .benefits .row .col {
         width: calc((100% /3) - 20px);
     }
 
 
-
-
     /* Footer Section */
-    .container-foot{
+    .container-foot {
         width: 50%;
         margin: 0 auto;
     }
 
 
 }
-
-
