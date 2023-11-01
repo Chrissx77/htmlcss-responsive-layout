@@ -21,6 +21,10 @@
     align-items: center;
 }
 
+.relative{
+    position: relative;
+}
+
 /*************************************************
     HEADER STYLES
  *************************************************/
@@ -182,14 +186,28 @@ div img {
     border-radius: 40px;
 }
 
-.image-test {
-    background-image: url(../image/testimonial1.jpg);
+.image-test{
     width: 250px;
     height: 250px;
     background-size: cover;
     background-position: center;
     border-radius: 50%;
 }
+
+.nat{
+    background-image: url(../image/testimonial1.jpg);
+}
+
+.celia{
+    background-image: url(../image/testimonial2.jpg);
+}
+
+.bob{
+    background-image: url(../image/testimonial3.jpg);
+}
+
+
+
 
 /* BENEFIT SECTION */
 .benefits .row {
@@ -239,6 +257,7 @@ div img {
 
 .image-about-us .btn a {
     background-color: #9792e4;
+    letter-spacing: normal;
 }
 
 .text-about-us .paragraph p {
@@ -252,6 +271,13 @@ div img {
 .text-about-us .title {
     font-size: 35px;
 }
+
+.about-quot{
+    position: absolute;
+    font-size: 60px;
+    right: 10px;
+}
+
 
 /* GET STARTED SECTION */
 .paragraph p {
@@ -305,7 +331,6 @@ div img {
 }
 
 
-
 /* MEDIA QUERY */
 
 /* Tablet Version */
@@ -315,9 +340,6 @@ div img {
     #menu {
         display: none;
     }
-
-
-
 
     /* FEATURES SECTION */
     .features .container .row {
@@ -417,7 +439,6 @@ div img {
 }
 
 
-
 /* Desktop Version */
 @media all and (min-width: 769px) {
 
@@ -459,11 +480,6 @@ div img {
     }
 
 
-
-
-
-
-
     /* FEATURES SECTION */
 
     .col-2 {
@@ -497,6 +513,13 @@ div img {
     /* BENEFIT SECTION */
     .benefits .row .col {
         width: calc((100% /3) - 20px);
+    }
+
+    /* ABOUT US */
+    .about-quot{
+        position: absolute;
+        font-size: 60px;
+        right: 10px;
     }
 
 
